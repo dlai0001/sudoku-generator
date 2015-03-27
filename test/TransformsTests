@@ -1,0 +1,8 @@
+var assert = require('assert');
+var sudokuGenerator = require('../');
+
+describe('Transforms module', function () {
+    it('must have at least one test', function () {
+        assert(false, 'No yet implemented.');
+    });
+});
