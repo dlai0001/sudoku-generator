@@ -1,8 +1,16 @@
 var assert = require('assert');
-var sudokuGenerator = require('../');
+
 
 describe('Transforms module', function () {
-    it('must have at least one test', function () {
+    it('should swap the expected rows', function () {
         assert(false, 'No yet implemented.');
     });
+
+    it('should swap the expected columns', function () {
+        assert(false, 'No yet implemented.');
+    });
+
+    it('should blank out squares in each 3x3 quadrant', function() {
+        assert(false, 'No yet implemented.');
+    })
 });

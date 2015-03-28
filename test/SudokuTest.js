@@ -3,7 +3,7 @@ var assert = require('assert');
 var sudokuGenerator = require('../');
 
 describe('sudoku-generator node module', function () {
-    it('must have at least one test', function () {
+    it('should return a complete puzzle in expected format.', function () {
         sudokuGenerator();
         assert(false, 'No yet implemented.');
     });
