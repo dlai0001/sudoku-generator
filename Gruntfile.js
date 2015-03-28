@@ -21,7 +21,7 @@ module.exports = function (grunt) {
                     reporter: 'travis-cov',
                     output: "report.html",
                     coveralls: {
-
+                        serviceName: "travis-ci"
                     },
                     instrument: true
                 },

@@ -6,3 +6,5 @@ node_js:
   - '0.10'
 before_install:
   - npm install -g grunt-cli
+
+secure: "d1FN6YkIGGdlge9PBt6zpB39m2UwcqLI9Nw4hNXasE7ZfYBtpy5WADYCn0azwGmxt4BdRZWMOPJ+Dj4WfPThyGPuHQFo7nDJfIyKYK4Q73zrIZQerTsa4OWnj6V5hQXg3izb+ge1kRaOhkMiYVfqBDciqcgwbrZwXPVcJ/4DjFk="
