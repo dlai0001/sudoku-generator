@@ -7,15 +7,26 @@ module.exports = function (grunt) {
 
     grunt.initConfig({
         mochacov: {
-            options: {
-                reporter: 'html-cov',
-                output: "report.html",
-                coveralls: {
-                    serviceName: 'travis-ci'
+            local: {
+                options: {
+                    reporter: 'html-cov',
+                    output: "report.html",
+                    coveralls: false,
+                    instrument: true
                 },
-                instrument: true
+                all: ['test/**/*.js']
             },
-            all: ['test/**/*.js']
+            travis: {
+                options: {
+                    reporter: 'travis-cov',
+                    output: "report.html",
+                    coveralls: {
+
+                    },
+                    instrument: true
+                },
+                all: ['test/**/*.js']
+            }
         },
 
         jshint: {
@@ -58,7 +69,7 @@ module.exports = function (grunt) {
 
     grunt.registerTask('default', ['test', 'coverage']);
     grunt.registerTask('test', ['jshint', 'mochacli']);
-    grunt.registerTask('coverage', ['mochacov']);
+    grunt.registerTask('coverage', ['mochacov:local']);
 
-    grunt.registerTask('travis', ['test']);
+    grunt.registerTask('travis', ['test','mochacov:travis']);
 };
