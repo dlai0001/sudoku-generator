@@ -1,59 +1,61 @@
 {
-    "name": "sudoku-generator",
-    "version": "0.0.0",
-    "description": "Sudoku generator for node",
-    "author": {
-        "name": "David Lai",
-        "email": "me@dlai0001.com",
-        "url": "dlai0001.com"
+  "name": "sudoku-generator",
+  "version": "0.0.0",
+  "description": "Sudoku generator for node",
+  "author": {
+    "name": "David Lai",
+    "email": "me@dlai0001.com",
+    "url": "dlai0001.com"
+  },
+  "repository": "https://github.com/dlai0001/sudoku-generator",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "sudoku-generator.js"
+  ],
+  "keywords": [
+    "sudoku-generator",
+    "Sudoku"
+  ],
+  "dependencies": {
+    "dependable": "^0.2.5",
+    "meow": "^3.1.0",
+    "underscore": "^1.8.2"
+  },
+  "devDependencies": {
+    "blanket": "^1.1.6",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^0.11.0",
+    "grunt-contrib-nodeunit": "^0.4.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-cli": "^1.12.0",
+    "grunt-mocha-cov": "^0.4.0",
+    "jshint-stylish": "^1.0.1",
+    "load-grunt-tasks": "^3.1.0",
+    "mocha-lcov-reporter": "0.0.2",
+    "should": "^5.2.0",
+    "time-grunt": "^1.1.0",
+    "travis-cov": "^0.2.5"
+  },
+  "scripts": {
+    "test": "grunt travis --verbose"
+  },
+  "bin": {
+    "sudoku-generator": "cli.js"
+  },
+  "config": {
+    "blanket": {
+      "spec-cov": {
+        "threshold": 80,
+        "localThreshold": 80
+      },
+      "pattern": [
+        "src"
+      ],
+      "data-cover-never": "test"
     },
-    "repository": "https://github.com/dlai0001/sudoku-generator",
-    "license": "MIT",
-    "files": [
-        "index.js",
-        "sudoku-generator.js"
-    ],
-    "keywords": [
-        "sudoku-generator",
-        "Sudoku"
-    ],
-    "dependencies": {
-        "dependable": "^0.2.5",
-        "meow": "^3.1.0"
-    },
-    "devDependencies": {
-        "blanket": "^1.1.6",
-        "grunt-cli": "^0.1.13",
-        "grunt-contrib-jshint": "^0.11.0",
-        "grunt-contrib-nodeunit": "^0.4.1",
-        "grunt-contrib-watch": "^0.6.1",
-        "grunt-mocha-cli": "^1.12.0",
-        "grunt-mocha-cov": "^0.4.0",
-        "jshint-stylish": "^1.0.1",
-        "load-grunt-tasks": "^3.1.0",
-        "mocha-lcov-reporter": "0.0.2",
-        "time-grunt": "^1.1.0",
-        "travis-cov": "^0.2.5"
-    },
-    "scripts": {
-        "test": "grunt travis --verbose"
-    },
-    "bin": {
-        "sudoku-generator": "cli.js"
-    },
-    "config": {
-        "blanket": {
-            "spec-cov": {
-                "threshold": 80,
-                "localThreshold": 80
-            },
-            "pattern": [
-                "src"
-            ],
-            "data-cover-never": "test"
-        },
-        "travis-cov": {
-            "threshold": 80
-        }
+    "travis-cov": {
+      "threshold": 80
     }
+  }
 }

@@ -50,15 +50,15 @@ module.exports = function (grunt) {
         },
         watch: {
             gruntfile: {
-                files: '<%= jshint.gruntfile.src %>',
+                files: 'Gruntfile.js',
                 tasks: ['jshint:gruntfile']
             },
             js: {
-                files: '<%= jshint.js.src %>',
+                files: 'src/**/*.js',
                 tasks: ['jshint:js', 'mochacli']
             },
             test: {
-                files: '<%= jshint.test.src %>',
+                files: 'test/**/*.js',
                 tasks: ['jshint:test', 'mochacli']
             }
         }
