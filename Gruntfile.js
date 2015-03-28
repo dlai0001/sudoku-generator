@@ -10,7 +10,9 @@ module.exports = function (grunt) {
             options: {
                 reporter: 'html-cov',
                 output: "report.html",
-                coveralls: false,
+                coveralls: {
+                    serviceName: 'travis-ci'
+                },
                 instrument: true
             },
             all: ['test/**/*.js']
