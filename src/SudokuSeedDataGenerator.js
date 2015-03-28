@@ -1,6 +1,4 @@
-
-
-module.exports = function(container) {
+module.exports = function (container) {
 
     this._container = container || require('./Dependencies');
 
@@ -13,9 +11,35 @@ module.exports = function(container) {
         //check grid size
         switch (gridSize) {
             case 6:
-                break;
+                return {
+                    grid: [
+                        [1, 2, 3, 4, 5, 6],
+                        [1, 2, 3, 4, 5, 6],
+                        [1, 2, 3, 4, 5, 6],
+                        [1, 2, 3, 4, 5, 6],
+                        [1, 2, 3, 4, 5, 6],
+                        [1, 2, 3, 4, 5, 6]
+                    ],
+                    sectionHeight: 2,
+                    sectionWidth: 3
+                };
+
             case 9:
-                break;
+                return {
+                    grid: [
+                        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                        [1, 2, 3, 4, 5, 6, 7, 8, 9],
+                        [1, 2, 3, 4, 5, 6, 7, 8, 9]
+                    ],
+                    sectionHeight: 3,
+                    sectionWidth: 3
+                };
             default:
                 throw new Error("unsupported grid size");
 

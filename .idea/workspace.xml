@@ -23,11 +23,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="SudokuSeedDataGenerator.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/SudokuSeedDataGenerator.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="645">
-              <caret line="0" column="134" selection-start-line="0" selection-start-column="134" selection-end-line="0" selection-end-column="134" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="825">
+              <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SudokuSeedDataTests.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/SudokuSeedDataTests.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6440678" vertical-offset="245" max-vertical-offset="540">
+              <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SudokuTest.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/SudokuTest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -37,91 +57,7 @@
         <entry file="file://$PROJECT_DIR$/test/TransformsTests.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.8" vertical-offset="45" max-vertical-offset="1005">
-              <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
-              <folding>
-                <marker date="1427558184000" expanded="true" signature="0:1306" placeholder="{&quot;name&quot;: &quot;sudoku-generator&quot;...}" />
-                <marker date="1427558184000" expanded="true" signature="112:200" placeholder="{&quot;name&quot;: &quot;David Lai&quot;...}" />
-                <marker date="1427558184000" expanded="true" signature="297:344" placeholder="[...]" />
-                <marker date="1427558184000" expanded="true" signature="360:402" placeholder="[...]" />
-                <marker date="1427558184000" expanded="true" signature="422:504" placeholder="{&quot;dependable&quot;: &quot;^0.2.5&quot;...}" />
-                <marker date="1427558184000" expanded="true" signature="527:949" placeholder="{&quot;blanket&quot;: &quot;^1.1.6&quot;...}" />
-                <marker date="1427558184000" expanded="true" signature="964:1006" placeholder="{&quot;test&quot;: &quot;grunt travis --verbose&quot;...}" />
-                <marker date="1427558184000" expanded="true" signature="1017:1055" placeholder="{&quot;sudoku-generator&quot;: &quot;cli.js&quot;...}" />
-                <marker date="1427558184000" expanded="true" signature="1069:1304" placeholder="{...}" />
-                <marker date="1427558184000" expanded="true" signature="1086:1251" placeholder="{&quot;data-cover-never&quot;: &quot;test&quot;...}" />
-                <marker date="1427558184000" expanded="true" signature="1106:1169" placeholder="{&quot;threshold&quot;: 80...}" />
-                <marker date="1427558184000" expanded="true" signature="1188:1211" placeholder="[...]" />
-                <marker date="1427558184000" expanded="true" signature="1271:1300" placeholder="{&quot;threshold&quot;: 80...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SudokuSeedDataTests.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/SudokuSeedDataTests.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SudokuSeedDataGenerator.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SudokuSeedDataGenerator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2757353" vertical-offset="0" max-vertical-offset="465">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Dependencies.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Dependencies.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-              <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sudoku-generator.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sudoku-generator.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sudoku.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sudoku.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-              <caret line="4" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -147,12 +83,12 @@
         <option value="$PROJECT_DIR$/src/Sudoku.js" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/Dependencies.js" />
         <option value="$PROJECT_DIR$/test/SudokuTest.js" />
         <option value="$PROJECT_DIR$/test/TransformsTests.js" />
-        <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/test/SudokuSeedDataTests.js" />
-        <option value="$PROJECT_DIR$/src/Dependencies.js" />
         <option value="$PROJECT_DIR$/src/SudokuSeedDataGenerator.js" />
+        <option value="$PROJECT_DIR$/test/SudokuSeedDataTests.js" />
       </list>
     </option>
   </component>
@@ -406,22 +342,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/SudokuTest.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/TransformsTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
@@ -432,7 +352,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sudoku.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+        <state vertical-scroll-proportion="0.15254237" vertical-offset="0" max-vertical-offset="295">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
@@ -440,37 +360,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.8" vertical-offset="45" max-vertical-offset="1005">
+        <state vertical-scroll-proportion="3.7837837" vertical-offset="45" max-vertical-offset="1005">
           <caret line="59" column="3" selection-start-line="59" selection-start-column="3" selection-end-line="59" selection-end-column="3" />
           <folding>
-            <marker date="1427558184000" expanded="true" signature="0:1306" placeholder="{&quot;name&quot;: &quot;sudoku-generator&quot;...}" />
-            <marker date="1427558184000" expanded="true" signature="112:200" placeholder="{&quot;name&quot;: &quot;David Lai&quot;...}" />
-            <marker date="1427558184000" expanded="true" signature="297:344" placeholder="[...]" />
-            <marker date="1427558184000" expanded="true" signature="360:402" placeholder="[...]" />
-            <marker date="1427558184000" expanded="true" signature="422:504" placeholder="{&quot;dependable&quot;: &quot;^0.2.5&quot;...}" />
-            <marker date="1427558184000" expanded="true" signature="527:949" placeholder="{&quot;blanket&quot;: &quot;^1.1.6&quot;...}" />
-            <marker date="1427558184000" expanded="true" signature="964:1006" placeholder="{&quot;test&quot;: &quot;grunt travis --verbose&quot;...}" />
-            <marker date="1427558184000" expanded="true" signature="1017:1055" placeholder="{&quot;sudoku-generator&quot;: &quot;cli.js&quot;...}" />
-            <marker date="1427558184000" expanded="true" signature="1069:1304" placeholder="{...}" />
-            <marker date="1427558184000" expanded="true" signature="1086:1251" placeholder="{&quot;data-cover-never&quot;: &quot;test&quot;...}" />
-            <marker date="1427558184000" expanded="true" signature="1106:1169" placeholder="{&quot;threshold&quot;: 80...}" />
-            <marker date="1427558184000" expanded="true" signature="1188:1211" placeholder="[...]" />
-            <marker date="1427558184000" expanded="true" signature="1271:1300" placeholder="{&quot;threshold&quot;: 80...}" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;sudoku-generator&quot;...}" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="{&quot;name&quot;: &quot;David Lai&quot;...}" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="{&quot;dependable&quot;: &quot;^0.2.5&quot;...}" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="{&quot;blanket&quot;: &quot;^1.1.6&quot;...}" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="{&quot;test&quot;: &quot;grunt travis --verbose&quot;...}" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="{&quot;sudoku-generator&quot;: &quot;cli.js&quot;...}" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="{&quot;data-cover-never&quot;: &quot;test&quot;...}" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="{&quot;threshold&quot;: 80...}" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1427558184000" expanded="true" signature="-1:-1" placeholder="{&quot;threshold&quot;: 80...}" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/SudokuSeedDataTests.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sudoku-generator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+        <state vertical-scroll-proportion="0.7627119" vertical-offset="0" max-vertical-offset="330">
           <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
           <folding />
         </state>
@@ -478,7 +390,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+        <state vertical-scroll-proportion="0.20338982" vertical-offset="0" max-vertical-offset="405">
           <caret line="4" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
@@ -486,16 +398,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Dependencies.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+        <state vertical-scroll-proportion="0.3559322" vertical-offset="0" max-vertical-offset="295">
           <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SudokuTest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/TransformsTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SudokuSeedDataGenerator.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2757353" vertical-offset="0" max-vertical-offset="465">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="335" max-vertical-offset="825">
+          <caret line="40" column="35" selection-start-line="40" selection-start-column="35" selection-end-line="40" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/SudokuSeedDataTests.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6440678" vertical-offset="245" max-vertical-offset="540">
+          <caret line="29" column="3" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
           <folding />
         </state>
       </provider>
