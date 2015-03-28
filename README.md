@@ -1,4 +1,4 @@
-#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url][![Coverage Status](https://coveralls.io/repos/dlai0001/sudoku-generator/badge.svg)](https://coveralls.io/r/dlai0001/sudoku-generator)
+#  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
 > Sudoku generator for node
 
