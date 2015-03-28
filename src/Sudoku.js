@@ -1,5 +1,5 @@
-
-
-module.exports = function(str) {
-    console.log(str || 'Rainbow');
+module.exports = function (str) {
+    if (str != null) {
+        console.log(str || 'Rainbow');
+    }
 }

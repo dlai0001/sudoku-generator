@@ -6,7 +6,7 @@ var dependable = require('dependable'),
 container.register('Sudoku', function () {
     var Sudoku = require('./src/Sudoku.js');
     return Sudoku;
-})
+});
 
 
 module.exports = function (str) {
@@ -16,6 +16,6 @@ module.exports = function (str) {
          * On a wood-paneled station wagon I ride
          * And I'm without outstanding warrants
          */
-        Sudoku(str);
+        new Sudoku(str);
     });
 };
