@@ -19,9 +19,7 @@ module.exports = function (grunt) {
             travis: {
                 options: {
                     reporter: 'travis-cov',
-                    coveralls: {
-                        serviceName: "travis-ci"
-                    },
+                    coveralls: false,
                     instrument: true
                 },
                 all: ['test/**/*.js']
