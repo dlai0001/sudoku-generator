@@ -22,7 +22,7 @@ $ sudoku-generator --help
 ```
 
 ## Dev Notes
-```
+```sh
     npm install  # install dependencies
 
     grunt test # run jslint and unit tests
@@ -30,7 +30,7 @@ $ sudoku-generator --help
     grunt coverage # run coverage report
 
     grunt watch # watches files and runs unit tests on changed files.
-```sh
+```
 
 ## License
 
