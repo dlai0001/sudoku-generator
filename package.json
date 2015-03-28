@@ -35,7 +35,7 @@
         "time-grunt": "^1.1.0"
     },
     "scripts": {
-        "test": "grunt"
+        "test": "grunt travis --verbose"
     },
     "bin": {
         "sudoku-generator": "cli.js"
