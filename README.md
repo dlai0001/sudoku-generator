@@ -12,9 +12,11 @@ $ npm install --save sudoku-generator
 
 ## Usage
 ```js
-var sudokuGenerator = require('sudoku-generator');
+var sudoku = require('sudoku-generator');
 
-sudokuGenerator('Rainbow');
+sudoku(9); ## 9x9 grid
+sudoku(6); ## 6x6 grid
+
 ```
 
 ```sh

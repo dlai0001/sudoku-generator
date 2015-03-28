@@ -1,3 +1,10 @@
+/**
+ * Seed data generator for Sudoku puzzles.
+ *
+ * This class generates a valid completely solved baseline puzzle.
+ * @param container - override injected dependencies.
+ */
+
 module.exports = function (container) {
 
     this._container = container || require('./Dependencies');
