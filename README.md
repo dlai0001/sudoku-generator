@@ -34,7 +34,7 @@ $ sudoku-generator --help
 
 ## License
 
-MIT © [David Lai](dlai0001.com)
+MIT © [David Lai](http://github.com/dlai0001)
 
 
 [npm-image]: https://badge.fury.io/js/sudoku-generator.svg
