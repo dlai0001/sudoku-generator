@@ -6,11 +6,11 @@ var sudokuGenerator = require('./');
 var cli = meow({
   help: [
     'Usage',
-    '  sudoku-generator <input>',
+    '  sudoku-generator <gridsize>',
     '',
     'Example',
-    '  sudoku-generator Unicorn'
+    '  sudoku-generator 9'
   ].join('\n')
 });
 
-sudokuGenerator(cli.input[0]);
+console.log(sudokuGenerator(cli.input[0]));

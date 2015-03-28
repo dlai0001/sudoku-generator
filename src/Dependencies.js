@@ -7,4 +7,8 @@
 var dependable = require('dependable'),
     container = dependable.container();
 
+container.register('SudokuSeedDataGenerator', function() {
+    return require('./SudokuSeedDataGenerator');
+})
+
 module.exports = container;

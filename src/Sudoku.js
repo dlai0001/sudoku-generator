@@ -4,6 +4,16 @@
  * @param difficulty - number of squares to blank out per section.
  */
 
-module.exports = function (gridSize, difficulty) {
-    console.log(str || 'NOT YET IMPLEMENTED');
-}
+var dependencies = require('./Dependencies');
+
+module.exports = function (container) {
+    this._container = container || require('./Dependencies');
+
+
+    this._seedDataGenerator = new (this._container.get('SudokuSeedDataGenerator'));
+
+
+    this.generate = function (gridSize, difficulty) {
+        return this._seedDataGenerator.generate(gridSize);
+    }.bind(this);
+};

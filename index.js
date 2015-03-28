@@ -9,13 +9,9 @@ container.register('Sudoku', function () {
 });
 
 
-module.exports = function (str) {
+module.exports = function () {
     container.resolve(function (Sudoku) {
-        /*
-         * I'm a tax attorney
-         * On a wood-paneled station wagon I ride
-         * And I'm without outstanding warrants
-         */
-        new Sudoku(str);
+        var sudoku = new Sudoku();
+        console.log(sudoku.generate(9,6).grid);
     });
 };
