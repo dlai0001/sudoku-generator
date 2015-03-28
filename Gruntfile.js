@@ -19,7 +19,6 @@ module.exports = function (grunt) {
             travis: {
                 options: {
                     reporter: 'travis-cov',
-                    output: "report.html",
                     coveralls: {
                         serviceName: "travis-ci"
                     },

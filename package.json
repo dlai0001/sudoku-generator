@@ -44,8 +44,8 @@
     "config": {
         "blanket": {
             "spec-cov": {
-                "threshold": 90,
-                "localThreshold": 90
+                "threshold": 80,
+                "localThreshold": 80
             },
             "pattern": [
                 "src"
@@ -53,7 +53,7 @@
             "data-cover-never": "test"
         },
         "travis-cov": {
-            "threshold": 0
+            "threshold": 80
         }
     }
 }
