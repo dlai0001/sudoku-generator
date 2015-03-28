@@ -4,14 +4,13 @@
 
 
 ## Install
-
+(note: not yet on npm)
 ```sh
 $ npm install --save sudoku-generator
 ```
 
 
 ## Usage
-
 ```js
 var sudokuGenerator = require('sudoku-generator');
 
@@ -19,10 +18,19 @@ sudokuGenerator('Rainbow');
 ```
 
 ```sh
-$ npm install --global sudoku-generator
 $ sudoku-generator --help
 ```
 
+## Dev Notes
+```
+    npm install  # install dependencies
+
+    grunt test # run jslint and unit tests
+
+    grunt coverage # run coverage report
+
+    grunt watch # watches files and runs unit tests on changed files.
+```sh
 
 ## License
 
