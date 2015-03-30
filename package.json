@@ -19,8 +19,9 @@
   ],
   "dependencies": {
     "dependable": "^0.2.5",
+    "lodash": "^3.6.0",
     "meow": "^3.1.0",
-    "underscore": "^1.8.2"
+    "shuffle-array": "^0.1.0"
   },
   "devDependencies": {
     "blanket": "^1.1.6",

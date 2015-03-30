@@ -13,4 +13,6 @@ var cli = meow({
   ].join('\n')
 });
 
-console.log(sudokuGenerator(cli.input[0]));
+process.stdout.write("\n\n");
+sudokuGenerator(cli.input[0]);
+process.stdout.write("\n\n");

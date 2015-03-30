@@ -11,4 +11,8 @@ container.register('SudokuSeedDataGenerator', function() {
     return require('./SudokuSeedDataGenerator');
 })
 
+container.register('MaskingTransformer', function() {
+    return require('./MaskingTransformer');
+})
+
 module.exports = container;

@@ -5,9 +5,7 @@
  * @param container - override injected dependencies.
  */
 
-module.exports = function (container) {
-
-    //this._container = container || require('./Dependencies');
+module.exports = function () {
 
     /**
      * The size of the grid you wish to generate.

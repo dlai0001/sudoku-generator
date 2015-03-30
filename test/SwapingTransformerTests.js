@@ -1,7 +1,7 @@
 var assert = require('assert');
 
 
-describe.skip('Transforms module', function () {
+describe.skip('SwappingTransforer module', function () {
     it('should swap the expected rows', function () {
         assert(false, 'Not yet implemented.');
     });
