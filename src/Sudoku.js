@@ -1,13 +1,12 @@
+var defaultDependencies = require('./Dependencies');
+
 /**
  * Generates a sudoku puzzle.
  * @param gridSize - size of grid, 6 -> 6x6 or 9 -> 9x9
  * @param difficulty - number of squares to blank out per section.
  */
-
-var dependencies = require('./Dependencies');
-
 module.exports = function (container) {
-    container = container || require('./Dependencies');
+    container = container || defaultDependencies;
 
 
     this._seedDataGenerator = new (container.get('SudokuSeedDataGenerator'));
@@ -18,7 +17,7 @@ module.exports = function (container) {
         var solvedPuzzle = this._seedDataGenerator.generate(gridSize);
 
         var unsolvedPuzzle = this._maskingTransformer.applyMask(solvedPuzzle.grid, difficulty);
-        
+
         var result = {
             solution: solvedPuzzle.grid,
             size: gridSize,

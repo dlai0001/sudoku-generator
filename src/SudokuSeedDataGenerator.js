@@ -4,7 +4,6 @@
  * This class generates a valid completely solved baseline puzzle.
  * @param container - override injected dependencies.
  */
-
 module.exports = function () {
 
     /**

@@ -9,10 +9,19 @@ var dependable = require('dependable'),
 
 container.register('SudokuSeedDataGenerator', function() {
     return require('./SudokuSeedDataGenerator');
-})
+});
 
 container.register('MaskingTransformer', function() {
     return require('./MaskingTransformer');
-})
+});
+
+container.register('SwappingTransformerTests', function() {
+    return require('./SwappingTransformerTests');
+});
+
+container.register('ArrayShuffle', function() {
+    return require('shuffle-array');
+});
+
 
 module.exports = container;
