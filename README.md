@@ -17,6 +17,7 @@ var sudoku = require('sudoku-generator');
 sudoku(9); ## 9x9 grid
 sudoku(6); ## 6x6 grid
 
+
 ```
 
 ```sh

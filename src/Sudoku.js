@@ -11,10 +11,11 @@ module.exports = function (container) {
 
     this._seedDataGenerator = new (container.get('SudokuSeedDataGenerator'));
     this._maskingTransformer = new (container.get('MaskingTransformer'));
-
+    this._swappingTransformer = new (container.get('SwappingTransformer'));
 
     this.generate = function (gridSize, difficulty) {
         var solvedPuzzle = this._seedDataGenerator.generate(gridSize);
+        solvedPuzzle.grid = this._swappingTransformer.performTransforms(solvedPuzzle);
 
         var unsolvedPuzzle = this._maskingTransformer.applyMask(solvedPuzzle.grid, difficulty);
 
