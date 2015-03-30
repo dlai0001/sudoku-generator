@@ -15,7 +15,7 @@ $ npm install --save sudoku-generator
 var sudoku = require('sudoku-generator');
 
 sudoku(9, 6); ## 9x9 grid with 6 numbers removed per row
-sudoku(6, 3); ## 6x6 grid with 4 numbers removed per row
+sudoku(6, 3); ## 6x6 grid with 3 numbers removed per row
 
 //example output
 {
