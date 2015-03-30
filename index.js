@@ -12,3 +12,5 @@ module.exports = function (gridSize, difficulty) {
 
     return puzzle;
 };
+
+

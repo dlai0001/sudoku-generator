@@ -14,10 +14,31 @@ $ npm install --save sudoku-generator
 ```js
 var sudoku = require('sudoku-generator');
 
-sudoku(9); ## 9x9 grid
-sudoku(6); ## 6x6 grid
+sudoku(9, 6); ## 9x9 grid with 6 numbers removed per row
+sudoku(6, 3); ## 6x6 grid with 4 numbers removed per row
 
-
+//example output
+{
+    solution: [
+        [ 3, 1, 2, 4, 5, 6 ],
+        [ 6, 4, 5, 1, 2, 3 ],
+        [ 1, 5, 6, 2, 3, 4 ],
+        [ 4, 2, 3, 5, 6, 1 ],
+        [ 2, 6, 1, 3, 4, 5 ],
+        [ 5, 3, 4, 6, 1, 2 ]
+    ],
+    size:6,
+    sectionWidth:3,
+    sectionHeight:2,
+    puzzle: [
+        [ 3, null, 2, null, null, 6 ],
+        [ null, 4, 5, 1, null, null ],
+        [ null, null, null, 2, 3, 4 ],
+        [ 4, 2, null, null, 6, null ],
+        [ null, null, null, 3, 4, 5 ],
+        [ null, 3, 4, 6, null, null ]
+    ]
+}
 ```
 ## Usage as command line (use --help to show options)
 ```sh
