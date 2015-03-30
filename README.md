@@ -10,7 +10,7 @@ $ npm install --save sudoku-generator
 ```
 
 
-## Usage
+## Usage as library
 ```js
 var sudoku = require('sudoku-generator');
 
@@ -19,9 +19,24 @@ sudoku(6); ## 6x6 grid
 
 
 ```
-
+## Usage as command line (use --help to show options)
 ```sh
-$ sudoku-generator --help
+    $ ./sudoku-generator.js 6 --show-solution
+
+
+      [[_ _ 6 _ 3 _]
+       [2 _ _ 5 _ _]
+       [6 _ _ 3 _ _]
+       [3 _ 4 _ _ _]
+       [4 _ _ _ _ 6]
+       [_ 6 _ _ 5 _]]
+
+      [[5 4 6 2 3 1]
+       [2 1 3 5 6 4]
+       [6 5 1 3 4 2]
+       [3 2 4 6 1 5]
+       [4 3 5 1 2 6]
+       [1 6 2 4 5 3]]
 ```
 
 ## Dev Notes
@@ -34,6 +49,9 @@ $ sudoku-generator --help
 
     grunt watch # watches files and runs unit tests on changed files.
 ```
+
+Unit test and coverage tests are wired up to TravisCI and run on every push.
+
 
 ## License
 
