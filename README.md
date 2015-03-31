@@ -41,6 +41,11 @@ sudoku(6, 3); ## 6x6 grid with 3 numbers removed per row
 }
 ```
 ## Usage as command line (use --help to show options)
+
+requires:
+    NodeJS - https://nodejs.org/
+    Grunt - https://github.com/gruntjs/grunt-cli
+
 ```sh
     $ ./sudoku-generator.js 6 --show-solution
 
