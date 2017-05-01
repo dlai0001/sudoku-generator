@@ -1,6 +1,6 @@
 {
     "name": "sudoku-generator",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Sudoku generator for node",
     "author": {
         "name": "David Lai",
