@@ -4,7 +4,6 @@
 
 
 ## Install
-(note: not yet on npm)
 ```sh
 $ npm install --save sudoku-generator
 ```
