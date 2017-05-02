@@ -19,7 +19,7 @@
         "Sudoku"
     ],
     "dependencies": {
-        "dependable": "^0.2.5",
+        "dependable": "git://github.com/idottv/dependable.git",
         "lodash": "^3.6.0",
         "meow": "^3.1.0",
         "shuffle-array": "^0.1.0"
