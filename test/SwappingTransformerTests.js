@@ -1,5 +1,5 @@
 //var assert = require('assert');
-var dependable = require('@bruce17/dependable');
+var dependable = require('dependable');
 var should = require('should');
 
 var SwappingTransformer = require('../src/SwappingTransformer');
