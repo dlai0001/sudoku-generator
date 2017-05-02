@@ -17,8 +17,8 @@ var SudokuGenerator = require('sudoku-generator');
   - numItemsRemovedPerRow supports a value between 0 and the gridSize
 */
 
-SudokuGenerator(9, 6); ## 9x9 grid with 6 numbers removed per row
-SudokuGenerator(6, 3); ## 6x6 grid with 3 numbers removed per row
+SudokuGenerator(9, 6); // 9x9 grid with 6 numbers removed per row
+SudokuGenerator(6, 3); // 6x6 grid with 3 numbers removed per row
 
 /* Example Output */
 {
