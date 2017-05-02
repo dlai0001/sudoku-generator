@@ -1,7 +1,7 @@
 var should = require('should');
 
 function countNullElementsInArray(arry) {
-    return _.filter(arry, function (item) {
+    return arry.filter(function (item) {
         return item === null;
     }).length;
 }
