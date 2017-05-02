@@ -1,4 +1,3 @@
-var _ = require('lodash');
 var shuffle = require('shuffle-array');
 
 /**
@@ -23,7 +22,11 @@ module.exports = function() {
 }
 
 function blankOutSpaces(arry, numberOfSpaces) {
-    var sequenceToBlankOut = shuffle(_.range(arry.length));
+    var numbers = [];
+    for (var i = 0; i < arry.length; i++) {
+        numbers.push(i);
+    }
+    var sequenceToBlankOut = shuffle(numbers);
 
     var result = arry.slice(); //copy the array
 

@@ -1,5 +1,4 @@
 var defaultDependencies = require('./Dependencies');
-var _ = require('lodash');
 
 /**
  * Performs swapping of rows or columns in a puzzle.
@@ -61,7 +60,11 @@ module.exports = function (container, numberOfRounds) {
      * @private
      */
     this._shuffleColumns = function (grid, indexStart, indexEnd) {
-        var columnsToShuffle = shuffle(_.range(indexStart, indexEnd + 1));
+        var numbers = [];
+        for (var i = indexStart; i < (indexEnd + 1); i++) {
+            numbers.push(i);
+        }
+        var columnsToShuffle = shuffle(numbers);
 
         //iterate over rows
         for (var i = 0; i < grid.length; i++) {
@@ -81,7 +84,11 @@ module.exports = function (container, numberOfRounds) {
      * @private
      */
     this._shuffleRows = function (grid, indexStart, indexEnd) {
-        var rowsToShuffle = shuffle(_.range(indexStart, indexEnd + 1));
+        var numbers = [];
+        for (var i = indexStart; i < (indexEnd + 1); i++) {
+            numbers.push(i);
+        }
+        var rowsToShuffle = shuffle(numbers);
 
         var shuffledRowContents = [];
         for (var i = 0; i < rowsToShuffle.length; i++) {
@@ -97,7 +104,7 @@ module.exports = function (container, numberOfRounds) {
 }
 
 function copyGrid(matrix) {
-    var copyOfGrid = _.map(matrix, function (arry) {
+    var copyOfGrid = matrix.map(function (arry) {
         return arry.slice();
     });
 

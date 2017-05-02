@@ -2,8 +2,6 @@
 
 
 var should = require('should');
-var _ = require('lodash');
-
 var Sudoku = require('../src/Sudoku');
 var sut = new Sudoku();
 
@@ -51,7 +49,7 @@ describe('Main sudoku generator node module', function () {
 
 
 function countOccurrancesInArray(arry, itemToCount) {
-    return _.filter(arry, function (item) {
+    return arry.filter(function (item) {
         return item === itemToCount;
     }).length;
 }

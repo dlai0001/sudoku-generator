@@ -1,6 +1,4 @@
-
 var should = require('should');
-var _ = require('lodash');
 
 function countNullElementsInArray(arry) {
     return _.filter(arry, function (item) {
