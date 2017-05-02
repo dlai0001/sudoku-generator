@@ -24,7 +24,7 @@
   ],
   "dependencies": {
     "dependable": "git+https://github.com/westonganger/dependable.git",
-    "lodash": "^3.6.0",
+    "lodash": "~3.6",
     "meow": "^3.1.0",
     "shuffle-array": "^0.1.0"
   },
