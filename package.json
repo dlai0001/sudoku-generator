@@ -10,10 +10,6 @@
     "main": "index.js",
     "repository": "https://github.com/dlai0001/sudoku-generator",
     "license": "MIT",
-    "files": [
-        "index.js",
-        "sudoku-generator.js"
-    ],
     "keywords": [
         "sudoku-generator",
         "Sudoku"
