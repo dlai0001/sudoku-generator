@@ -10,12 +10,20 @@
     "main": "index.js",
     "repository": "https://github.com/dlai0001/sudoku-generator",
     "license": "MIT",
+    "files": [
+        "index.js",
+        "sudoku-generator.js",
+        "src/**/*.js"
+    ],
+    "bin": {
+        "sudoku-generator": "sudoku-generator.js"
+    },
     "keywords": [
         "sudoku-generator",
         "Sudoku"
     ],
     "dependencies": {
-        "dependable": "git+https://github.com/bruce17/dependable.git",
+        "@bruce17/dependable": "^1.3.0",
         "lodash": "^3.6.0",
         "meow": "^3.1.0",
         "shuffle-array": "^0.1.0"
@@ -38,9 +46,6 @@
     },
     "scripts": {
         "test": "grunt travis --verbose"
-    },
-    "bin": {
-        "sudoku-generator": "cli.js"
     },
     "config": {
         "blanket": {

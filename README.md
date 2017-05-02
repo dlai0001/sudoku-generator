@@ -4,7 +4,6 @@
 
 
 ## Install
-(note: not yet on npm)
 ```sh
 $ npm install --save sudoku-generator
 ```
@@ -12,10 +11,10 @@ $ npm install --save sudoku-generator
 
 ## Usage as library
 ```js
-var sudoku = require('sudoku-generator');
+var SudokuGenerator = require('sudoku-generator');
 
-sudoku(9, 6); ## 9x9 grid with 6 numbers removed per row
-sudoku(6, 3); ## 6x6 grid with 3 numbers removed per row
+SudokuGenerator(9, 6); ## 9x9 grid with 6 numbers removed per row
+SudokuGenerator(6, 3); ## 6x6 grid with 3 numbers removed per row
 
 //example output
 {
@@ -44,10 +43,9 @@ sudoku(6, 3); ## 6x6 grid with 3 numbers removed per row
 
 requires:
     NodeJS - https://nodejs.org/
-    Grunt - https://github.com/gruntjs/grunt-cli
 
 ```sh
-    $ ./sudoku-generator.js 6 --show-solution
+    $ sudoku-generator.js 6 --show-solution
 
 
       [[_ _ 6 _ 3 _]
