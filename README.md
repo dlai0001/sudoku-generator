@@ -1,22 +1,26 @@
 #  [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url]
 
-> Sudoku generator for node
-
+> Sudoku generator for Node
 
 ## Install
 ```sh
 $ npm install --save sudoku-generator
 ```
 
-
 ## Usage as library
 ```js
 var SudokuGenerator = require('sudoku-generator');
 
+/* 
+  SudokuGenerator(gridSize, numItemsRemovedPerRow); 
+  - gridSize only supports the value 6 or 9 
+  - numItemsRemovedPerRow supports a value between 0 and the gridSize
+*/
+
 SudokuGenerator(9, 6); ## 9x9 grid with 6 numbers removed per row
 SudokuGenerator(6, 3); ## 6x6 grid with 3 numbers removed per row
 
-//example output
+/* Example Output */
 {
     solution: [
         [ 3, 1, 2, 4, 5, 6 ],
@@ -39,39 +43,36 @@ SudokuGenerator(6, 3); ## 6x6 grid with 3 numbers removed per row
     ]
 }
 ```
+
 ## Usage as command line (use --help to show options)
 
-requires:
-    NodeJS - https://nodejs.org/
-
 ```sh
-    $ sudoku-generator.js 6 --show-solution
+$ sudoku-generator 6 --show-solution
 
+  [[_ _ 6 _ 3 _]
+   [2 _ _ 5 _ _]
+   [6 _ _ 3 _ _]
+   [3 _ 4 _ _ _]
+   [4 _ _ _ _ 6]
+   [_ 6 _ _ 5 _]]
 
-      [[_ _ 6 _ 3 _]
-       [2 _ _ 5 _ _]
-       [6 _ _ 3 _ _]
-       [3 _ 4 _ _ _]
-       [4 _ _ _ _ 6]
-       [_ 6 _ _ 5 _]]
-
-      [[5 4 6 2 3 1]
-       [2 1 3 5 6 4]
-       [6 5 1 3 4 2]
-       [3 2 4 6 1 5]
-       [4 3 5 1 2 6]
-       [1 6 2 4 5 3]]
+  [[5 4 6 2 3 1]
+   [2 1 3 5 6 4]
+   [6 5 1 3 4 2]
+   [3 2 4 6 1 5]
+   [4 3 5 1 2 6]
+   [1 6 2 4 5 3]]
 ```
 
 ## Dev Notes
 ```sh
-    npm install  # install dependencies
+npm install  # install dependencies
 
-    grunt test # run jslint and unit tests
+grunt test # run jslint and unit tests
 
-    grunt coverage # run coverage report
+grunt coverage # run coverage report
 
-    grunt watch # watches files and runs unit tests on changed files.
+grunt watch # watches files and runs unit tests on changed files.
 ```
 
 Unit test and coverage tests are wired up to TravisCI and run on every push.
