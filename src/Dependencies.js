@@ -4,7 +4,7 @@
  * Dependencies used in final projection are wired up here.
  */
 
-var dependable = require('dependable'),
+var dependable = require('@bruce17/dependable'),
     container = dependable.container();
 
 container.register('Sudoku', function () {

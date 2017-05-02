@@ -14,7 +14,7 @@ describe('SeedData module', function () {
         should(output.sectionHeight).be.exactly(2);
     });
 
-    it.skip('should fetch a random 9x9 grid with 3x3 sections', function () {
+    it('should fetch a random 9x9 grid with 3x3 sections', function () {
         var output = sut.generate(9);
         should(output).have.property('grid').with.length(9);
         should(output.grid[5].length).be.exactly(9);
